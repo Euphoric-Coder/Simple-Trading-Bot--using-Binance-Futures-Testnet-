@@ -24,7 +24,7 @@ It supports **Market**, **Limit**, and **Stop/Stop-Market** orders, complete wit
 - Binance Futures Testnet account (from [Binance Login](https://accounts.binance.com/en/login))
 - Then create API Key & Secret (from [https://testnet.binancefuture.com](https://testnet.binancefuture.com))
 - Store them in .env file:
-```json
+```bash
 BINANCE_API_KEY=
 BINANCE_API_SECRET=
 ```
@@ -39,26 +39,26 @@ BINANCE_API_SECRET=
 ```
 2. **Change Directory**
 
-```json
+```bash
    cd Simple-Trading-Bot--using-Binance-Futures-Testnet-
 ```
 3. **Create Python Virtual Environment**
 
-```json
+```bash
 python -m venv VENV
 ```
 
 4. **Activate the Virtual Environment**
-```json
+```bash
 source VENV/bin/activate 
 ```
-```json
+```bash
 VENV\Scripts\activate
 ```
 
 5. **Install Required Dependencies**
 
-```json
+```bash
 pip install requests python-dotenv
 ```
 
@@ -80,7 +80,7 @@ python bot.py --help
 python bot.py ping
 ```
 **Example Output:**
-```json
+```bash
 {
   "status": "ok",
   "serverTime": 1730972702143
